@@ -1,0 +1,27 @@
+div{
+    right: 30px;
+    border: 3px solid #73ad21
+}
+div.absolute{
+    position:absolute;
+    left: 50px;
+    border: 3px solid blue
+}
+div.fixed {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 300px;
+    border: 3px solid #73AD21;
+}
+
+div.static {
+    position: static;
+    border: 3px solid #4282c7;
+}
+iv.sticky {
+    position: sticky;
+    top: 0;
+    background-color: green;
+    border: 2px solid #636ee6;
+}
